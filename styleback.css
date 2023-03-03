@@ -1,0 +1,97 @@
+* {
+    margin: auto;
+    border: 0;
+    box-sizing: 0;
+}
+
+body {
+    background-color: black !important;
+
+}
+
+h1, h2, p, label, tr,td {
+    color: beige !important;
+}
+h2.resultados{
+    margin-left: 100px;
+}
+.title {
+    text-align: center;
+}
+
+
+
+
+input {
+    background-color: rgb(0, 0, 0) !important;
+    color: aliceblue;
+    width: 100%;
+    margin: 5px;
+}
+div {
+    display: block;
+    margin: 10px
+}
+.container{
+    display: flex;
+    gap: 10px;
+}
+
+button#login {
+    font-size: 10px;
+    margin: 20px;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+button#historico {
+    width: 80%;
+    margin-left: 10%;
+}
+button#visualizar{
+    width: 100%;
+    font-size: 25px;
+    font: bold;
+    margin-top: 100%;
+
+}
+
+.container-login {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    gap: 10px;
+}
+
+div#container-historico{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    margin:auto;
+    margin-top: 30px;
+}
+
+h2.textHistorico{
+    text-align: center;
+    margin-top: 40px;
+}
+
+table#table-pessoas {
+    
+    width: 90%;
+    border: 1px solid rgb(60, 55, 55);
+}
+.tabela {
+    width: 100%;
+}
+
+tr,td,th {
+    padding: 10px;
+}
+
+
+.table-row {
+    background-color: rgb(14, 14, 14);
+    box-shadow: rgb(239, 229, 229);
+}
